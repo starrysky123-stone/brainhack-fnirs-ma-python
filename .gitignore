@@ -47,3 +47,4 @@ figures/**
 .DS_Store
 reference_matlab/
 assets/*.npz
+local_experiments/
