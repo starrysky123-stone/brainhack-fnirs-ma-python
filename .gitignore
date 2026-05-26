@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Data
+data/raw/
+data/processed/
+
+# Large files
+*.mat
+*.snirf
+*.nirs
+*.csv
+*.xlsx
+*.h5
+*.pkl
+
+# Results that can be regenerated
+results/
+figures/
+
+# System files
+.DS_Store
