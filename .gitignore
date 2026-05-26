@@ -46,3 +46,4 @@ figures/**
 # System files
 .DS_Store
 reference_matlab/
+assets/*.npz
