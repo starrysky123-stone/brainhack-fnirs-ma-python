@@ -8,22 +8,40 @@ __pycache__/
 .venv/
 venv/
 
-# Data
-data/raw/
-data/processed/
+# Data: do not track private or raw data
+data/**
+!data/
+!data/raw/
+!data/processed/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
-# Large files
+# Results and figures can be regenerated
+results/**
+!results/
+!results/uncorrected/
+!results/fwe_corrected/
+!results/uncorrected/.gitkeep
+!results/fwe_corrected/.gitkeep
+
+figures/**
+!figures/
+!figures/brain_maps/
+!figures/channel_plots/
+!figures/brain_maps/.gitkeep
+!figures/channel_plots/.gitkeep
+
+# Large or sensitive files
 *.mat
 *.snirf
 *.nirs
 *.csv
+*.tsv
 *.xlsx
+*.xls
 *.h5
 *.pkl
-
-# Results that can be regenerated
-results/
-figures/
+*.sav
 
 # System files
 .DS_Store
